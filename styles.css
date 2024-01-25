@@ -1,0 +1,52 @@
+* {
+  /* font-family: 'Ephesis', cursive;
+  font-family: 'Kanit', sans-serif; */
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
+  #board, .boardInfo{ 
+    display: grid;
+    max-width: 500px;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo{
+font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+#start {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#scoreBorder {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: rgb(50, 7, 90);
+}
+
+.snakeSquare {
+    background-color: black;
+}
+.foodSquare {
+    background-color: whitesmoke;
+}
